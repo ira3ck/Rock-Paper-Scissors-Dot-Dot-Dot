@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://xpgta31v04mu"]
+
+[ext_resource type="PackedScene" uid="uid://ckjk1m6kabien" path="res://Hand/hand.dae" id="1_1fa5x"]
+
+[node name="hand" instance=ExtResource("1_1fa5x")]
+
+[node name="Skeleton3D" parent="metarig" index="0"]
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, -3.72529e-09, 3.72529e-09, -1.49012e-08, 1, 0, 0, 0)
+bones/0/enabled = false
+bones/1/enabled = false
+bones/2/enabled = false
+bones/3/enabled = false
+bones/4/enabled = false
+bones/5/enabled = false
+bones/6/enabled = false
+bones/7/enabled = false
+bones/8/enabled = false
+bones/9/enabled = false
+bones/10/enabled = false
+bones/11/enabled = false
+bones/12/enabled = false
+bones/13/enabled = false
+bones/14/enabled = false
+bones/15/enabled = false
+bones/16/enabled = false
+bones/17/enabled = false
+bones/18/enabled = false
+
+[node name="Mano" parent="metarig/Skeleton3D" index="0"]
+transform = Transform3D(1, 2.77556e-17, -3.72529e-09, 0, 1, 7.45058e-09, 3.72529e-09, -7.45058e-09, 1, 0, 0, 0)
+skeleton = NodePath("..")
